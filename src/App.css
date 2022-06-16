@@ -1,0 +1,115 @@
+body { 
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418)),
+    url("https://i.ibb.co/R9hwSbx/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+ .inputTag {
+    /* margin: auto; */
+    display:block;
+    text-align: center;
+    padding-top: 5rem;
+
+}
+
+
+input{
+    outline: none;
+    width: 40%;
+    height: 1.8rem;
+    border: 2px solid rgb(203, 203, 203);
+    border-radius: 40px;
+    margin: 20px;
+    font-weight: 600;
+    padding-left: 10px 10px;
+    font-size: 1.3rem;
+    box-shadow: 0 0px 2px rgb(236, 236, 236);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(55, 54, 54);
+}
+
+/* [input]::focus {
+    border: 4px solid rgb(21, 21, 84);
+
+} */
+
+button {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 40px;
+    border:2px solid rgb(230, 230, 230);
+    background-color: rgb(59, 37, 170);
+    color: white;
+    font-weight: 600;
+}
+#input {
+    position: relative;
+    margin-top: -40px;
+}
+
+/* #input:placeholder-shown {
+    display: none;
+  } */
+
+.Container::before {
+    display: none;
+}
+.Container {
+    margin: auto;
+    display: block;
+    height: 18rem;
+    width: 18rem;
+    margin-top: 30px;
+    padding: 5px;
+    background: rgba(250, 250, 250, 0.85);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+}
+
+
+.name {
+    margin-top: -10px;
+    margin-bottom: -16px;
+    font-size: 1.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.country {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font: 0.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.date {
+    margin-top: 5px;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+.temp {
+    font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1e2432;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.iconImg {
+    margin-top: -30px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.text {
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -15px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
